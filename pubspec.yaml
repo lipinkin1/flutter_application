@@ -1,0 +1,30 @@
+name: flutter_application
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.0
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true 
+
+fonts: 
+  - family: Bungee
+    fonts: 
+      - asset: build/flutter_assets/fonts/BungeeSpice-Regular.ttf
+        weight: 400
+      - asset: build/flutter_assets/fonts/BungeeSpice-Regular.ttf
+        style: italic
+      - asset: build/flutter_assets/fonts/BungeeSpice-Regular.ttf
